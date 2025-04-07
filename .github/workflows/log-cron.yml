@@ -23,4 +23,4 @@ jobs:
         git commit -m "Update log file with new timestamp"
         git push
       env:
-        GITHUB_TOKEN: ${{ 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 }}
+        GITHUB_TOKEN: $CRON.pat
